@@ -11,6 +11,7 @@ sentry = []
 remotekv = []
 snapshotsync = []
 txpool = []
+web3 = []
 
 [dependencies]
 arrayref = "0.3"

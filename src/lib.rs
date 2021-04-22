@@ -138,3 +138,8 @@ pub mod txpool {
     tonic::include_proto!("txpool");
     tonic::include_proto!("txpool_control");
 }
+
+#[cfg(feature = "web3")]
+pub mod web3 {
+    tonic::include_proto!("web3");
+}
